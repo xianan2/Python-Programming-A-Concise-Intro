@@ -325,7 +325,7 @@ def problem2_8(temp_list):
     for i in range(0,n):
         sum += temp_list[i]
     
-    print("Average: ",sum/n)
+    print("Average:",sum/n)
     print("High:",max(temp_list))
     print("Low:",min(temp_list))
 
